@@ -28,8 +28,10 @@ java -jar MovieManager.jar data.json
 - `show` — вывести все фильмы в строковом представлении
   ![Снимок экрана 2025-05-04 091556](https://github.com/user-attachments/assets/a9e5313b-04b7-4e55-8e89-202291a0ed2c)
 - `info` — информация о коллекции
+
   ![Снимок экрана 2025-05-04 091610](https://github.com/user-attachments/assets/70ad6095-1446-44d1-a593-783b0205bae7)
 - `save` — сохранить коллекцию в файл
+
   ![Снимок экрана 2025-05-04 091636](https://github.com/user-attachments/assets/f8e5b53f-9119-40c0-be0f-9338b0b1cc55)
 ![json1](https://github.com/user-attachments/assets/48e7118e-faac-44ad-ad3a-318e6f9c69b9) ![Снимок экрана 2025-05-04 091720](https://github.com/user-attachments/assets/40b52c9e-a557-4fc0-bffc-0b98d780beee)
 - `min_by_usa_box_office` — вывести любой фильм из коллекции, имеющий минимальные кассовые сборы в США
@@ -41,10 +43,13 @@ java -jar MovieManager.jar data.json
 - `update {id}` — обновить фильм по id
 ![Снимок экрана 2025-05-04 092155](https://github.com/user-attachments/assets/43c37a55-0e82-4608-affc-9f74a4900e76)
 - `remove_by_id {id}` — удалить по id
+
 ![Снимок экрана 2025-05-04 092246](https://github.com/user-attachments/assets/289fedff-6044-41e1-9329-011c4ba1998d)
 - `remove_lower` — удалить все фильмы меньше заданного
 ![Снимок экрана 2025-05-04 093310](https://github.com/user-attachments/assets/cc342941-6e00-43f5-88aa-73418f4b8a87)
 - `clear` — очистить коллекцию
+
 ![Снимок экрана 2025-05-04 093325](https://github.com/user-attachments/assets/4834d261-a90c-4bd5-a1c1-9899efe82e1d)
 - `exit` — завершить программу
+
 ![Снимок экрана 2025-05-04 152438](https://github.com/user-attachments/assets/d8916798-3a90-439b-a91b-fe3b3d8706fe)
