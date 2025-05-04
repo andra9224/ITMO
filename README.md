@@ -30,7 +30,8 @@ java -jar MovieManager.jar data.json
   ![Снимок экрана 2025-05-04 091610](https://github.com/user-attachments/assets/70ad6095-1446-44d1-a593-783b0205bae7)
 - `save` — сохранить коллекцию в файл
 
-  ![Снимок экрана 2025-05-04 091636](https://github.com/user-attachments/assets/f8e5b53f-9119-40c0-be0f-9338b0b1cc55)
+![Снимок экрана 2025-05-04 091636](https://github.com/user-attachments/assets/f8e5b53f-9119-40c0-be0f-9338b0b1cc55)
+
 ![json1](https://github.com/user-attachments/assets/58411b46-9049-44f5-bd3a-ffc0127bfb3a) ![Снимок экрана 2025-05-04 091720](https://github.com/user-attachments/assets/ae773bb2-a9cc-40c7-bd09-4a9f5fcf19e1)
 - `min_by_usa_box_office` — вывести любой фильм из коллекции, имеющий минимальные кассовые сборы в США
 ![Снимок экрана 2025-05-04 091813](https://github.com/user-attachments/assets/b6dcf4c1-d6e9-4761-8590-05b3d56d2d53)
