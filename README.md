@@ -1,5 +1,3 @@
-![Снимок экрана 2025-05-04 091813](https://github.com/user-attachments/assets/7fa2199a-5c0b-492e-8f73-bf30dbc919d7)# Movie Collection Manager
-
 Программа для управления коллекцией фильмов.  
 Позволяет добавлять, обновлять, удалять и фильтровать фильмы, сохранять и загружать коллекцию в формате JSON, а также выполнять команды из скриптовых файлов.
 
@@ -33,7 +31,7 @@ java -jar MovieManager.jar data.json
 - `save` — сохранить коллекцию в файл
 
   ![Снимок экрана 2025-05-04 091636](https://github.com/user-attachments/assets/f8e5b53f-9119-40c0-be0f-9338b0b1cc55)
-![json1](https://github.com/user-attachments/assets/48e7118e-faac-44ad-ad3a-318e6f9c69b9) ![Снимок экрана 2025-05-04 091720](https://github.com/user-attachments/assets/40b52c9e-a557-4fc0-bffc-0b98d780beee)
+![json1](https://github.com/user-attachments/assets/58411b46-9049-44f5-bd3a-ffc0127bfb3a) ![Снимок экрана 2025-05-04 091720](https://github.com/user-attachments/assets/ae773bb2-a9cc-40c7-bd09-4a9f5fcf19e1)
 - `min_by_usa_box_office` — вывести любой фильм из коллекции, имеющий минимальные кассовые сборы в США
 ![Снимок экрана 2025-05-04 091813](https://github.com/user-attachments/assets/b6dcf4c1-d6e9-4761-8590-05b3d56d2d53)
 - `count_less_than_length {length}` — вывести количество фильмов, короче заданного значения
