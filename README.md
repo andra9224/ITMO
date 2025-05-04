@@ -13,7 +13,9 @@ java -jar MovieManager.jar data.json
 
 ## Поддерживаемые команды
 
+
 - `add` — добавить фильм
+![Снимок экрана 2025-05-04 090410](https://github.com/user-attachments/assets/5652e95c-dd82-4e23-a955-a5a9e325021a)
 - `add_if_max` — добавить фильм, если его значение больше всех
 - `add_if_min` — добавитьфильм, если его значение меньше всех
 - `update {id}` — обновить фильм по id
