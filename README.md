@@ -30,10 +30,10 @@ java -jar MovieManager.jar data.json
 ![Снимок экрана 2025-05-04 091408](https://github.com/user-attachments/assets/3f0549eb-20bd-4581-a4fb-c8d5bbf0e52f) ![Снимок экрана 2025-05-04 091431](https://github.com/user-attachments/assets/7aacdb0f-5fed-43cb-a1b3-eabc7bae9901)
 - `show` — вывести все фильмы в строковом представлении
   
-  ![Снимок экрана 2025-05-04 091556](https://github.com/user-attachments/assets/a9e5313b-04b7-4e55-8e89-202291a0ed2c)
+![Снимок экрана 2025-05-04 091556](https://github.com/user-attachments/assets/a9e5313b-04b7-4e55-8e89-202291a0ed2c)
 - `info` — информация о коллекции
 
-  ![Снимок экрана 2025-05-04 091610](https://github.com/user-attachments/assets/70ad6095-1446-44d1-a593-783b0205bae7)
+![Снимок экрана 2025-05-04 091610](https://github.com/user-attachments/assets/70ad6095-1446-44d1-a593-783b0205bae7)
 - `save` — сохранить коллекцию в файл
 
 ![Снимок экрана 2025-05-04 091636](https://github.com/user-attachments/assets/f8e5b53f-9119-40c0-be0f-9338b0b1cc55)
