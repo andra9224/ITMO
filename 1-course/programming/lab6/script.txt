@@ -1,0 +1,14 @@
+add
+
+Alex
+3
+35
+1
+800
+120
+action
+Harry
+31-05-1975
+1.8
+
+show

@@ -1,0 +1,177 @@
+2025-05-26 22:44:11 INFO  server.core.ServerMain - Инициализация сервера с файлом movies.json
+2025-05-26 22:44:11 INFO  server.core.ServerMain - Серверный поток запущен на порту 5000
+2025-05-26 22:44:11 INFO  server.core.ServerApp - Сервер запущен на порту 5000
+2025-05-26 22:44:42 WARN  server.core.ServerMain - Неизвестная команда в консоли сервера: ''
+2025-05-26 22:44:54 INFO  server.core.ServerApp - Клиент подключён: /127.0.0.1
+2025-05-26 22:45:10 INFO  server.core.ServerApp - Получена команда от клиента: help
+2025-05-26 22:45:10 INFO  server.network.CommandExecutor - Выполняется команда: help
+2025-05-26 22:45:10 INFO  server.network.CommandExecutor - Команда 'help' выполнена успешно
+2025-05-26 22:45:47 ERROR server.core.ServerApp - Ошибка при выполнении команды: writing aborted; java.io.NotSerializableException: common.model.Movie
+2025-05-26 22:48:22 INFO  server.core.ServerApp - Получена команда от клиента: exit
+2025-05-26 22:48:22 INFO  server.core.ServerApp - Клиент завершил соединение.
+2025-05-26 22:48:30 INFO  server.core.ServerMain - Сервер завершает работу по команде администратора.
+2025-05-26 22:48:30 INFO  server.core.ServerMain - Сохраняем коллекцию при завершении...
+2025-05-26 22:49:28 INFO  server.core.ServerMain - Инициализация сервера с файлом movies.json
+2025-05-26 22:49:28 INFO  server.core.ServerApp - Сервер запущен на порту 5000
+2025-05-26 22:49:34 INFO  server.core.ServerApp - Клиент подключён: /127.0.0.1
+2025-05-26 22:49:39 INFO  server.core.ServerApp - Получена команда от клиента: help
+2025-05-26 22:49:39 INFO  server.network.CommandExecutor - Выполняется команда: help
+2025-05-26 22:49:39 INFO  server.network.CommandExecutor - Команда 'help' выполнена успешно
+2025-05-26 22:50:03 INFO  server.core.ServerApp - Получена команда от клиента: add
+2025-05-26 22:50:03 INFO  server.network.CommandExecutor - Выполняется команда: add
+2025-05-26 22:50:03 INFO  server.network.CommandExecutor - Команда 'add' выполнена успешно
+2025-05-26 22:50:16 INFO  server.core.ServerApp - Получена команда от клиента: help
+2025-05-26 22:50:16 INFO  server.network.CommandExecutor - Выполняется команда: help
+2025-05-26 22:50:16 INFO  server.network.CommandExecutor - Команда 'help' выполнена успешно
+2025-05-26 22:50:21 INFO  server.core.ServerApp - Получена команда от клиента: info
+2025-05-26 22:50:21 INFO  server.network.CommandExecutor - Выполняется команда: info
+2025-05-26 22:50:21 INFO  server.network.CommandExecutor - Команда 'info' выполнена успешно
+2025-05-26 22:50:33 INFO  server.core.ServerApp - Получена команда от клиента: show
+2025-05-26 22:50:33 INFO  server.network.CommandExecutor - Выполняется команда: show
+2025-05-26 22:50:33 INFO  server.network.CommandExecutor - Команда 'show' выполнена успешно
+2025-05-26 22:53:02 INFO  server.core.ServerApp - Получена команда от клиента: add
+2025-05-26 22:53:02 INFO  server.network.CommandExecutor - Выполняется команда: add
+2025-05-26 22:53:02 INFO  server.network.CommandExecutor - Команда 'add' выполнена успешно
+2025-05-26 22:53:05 INFO  server.core.ServerApp - Получена команда от клиента: show
+2025-05-26 22:53:05 INFO  server.network.CommandExecutor - Выполняется команда: show
+2025-05-26 22:53:05 INFO  server.network.CommandExecutor - Команда 'show' выполнена успешно
+2025-05-26 22:54:07 INFO  server.core.ServerApp - Получена команда от клиента: save
+2025-05-26 22:54:17 INFO  server.core.ServerMain - Ручное сохранение выполнено: Коллекция сохранена вручную с сервера.
+2025-05-26 22:56:13 INFO  server.core.ServerApp - Получена команда от клиента: add_if_max
+2025-05-26 22:56:13 INFO  server.network.CommandExecutor - Выполняется команда: add_if_max
+2025-05-26 22:56:13 INFO  server.network.CommandExecutor - Команда 'add_if_max' выполнена успешно
+2025-05-26 22:56:47 INFO  server.core.ServerApp - Получена команда от клиента: add_if_min
+2025-05-26 22:56:47 INFO  server.network.CommandExecutor - Выполняется команда: add_if_min
+2025-05-26 22:56:47 INFO  server.network.CommandExecutor - Команда 'add_if_min' выполнена успешно
+2025-05-26 22:56:52 INFO  server.core.ServerApp - Получена команда от клиента: show
+2025-05-26 22:56:52 INFO  server.network.CommandExecutor - Выполняется команда: show
+2025-05-26 22:56:52 INFO  server.network.CommandExecutor - Команда 'show' выполнена успешно
+2025-05-26 22:57:26 INFO  server.core.ServerApp - Получена команда от клиента: exit
+2025-05-26 22:57:26 INFO  server.core.ServerApp - Клиент завершил соединение.
+2025-05-26 22:57:34 INFO  server.core.ServerMain - Сервер завершает работу по команде администратора.
+2025-05-26 22:57:34 INFO  server.core.ServerMain - Сохраняем коллекцию при завершении...
+2025-05-26 23:07:29 INFO  server.core.ServerMain - Инициализация сервера с файлом movies.json
+2025-05-26 23:07:29 INFO  server.core.ServerApp - Сервер запущен на порту 5000
+2025-05-26 23:07:31 INFO  server.core.ServerMain - Инициализация сервера с файлом movies.json
+2025-05-26 23:07:31 INFO  server.core.ServerApp - Сервер запущен на порту 5000
+2025-05-26 23:07:31 ERROR server.core.ServerApp - Ошибка запуска сервера: Address already in use: bind
+2025-05-26 23:07:36 INFO  server.core.ServerApp - Клиент подключён: /127.0.0.1
+2025-05-26 23:07:41 INFO  server.core.ServerApp - Получена команда от клиента: help
+2025-05-26 23:07:41 INFO  server.network.CommandExecutor - Выполняется команда: help
+2025-05-26 23:07:41 INFO  server.network.CommandExecutor - Команда 'help' выполнена успешно
+2025-05-26 23:08:07 INFO  server.core.ServerApp - Получена команда от клиента: add
+2025-05-26 23:08:07 INFO  server.network.CommandExecutor - Выполняется команда: add
+2025-05-26 23:08:07 INFO  server.network.CommandExecutor - Команда 'add' выполнена успешно
+2025-05-26 23:08:54 INFO  server.core.ServerApp - Получена команда от клиента: add
+2025-05-26 23:08:54 INFO  server.network.CommandExecutor - Выполняется команда: add
+2025-05-26 23:08:54 INFO  server.network.CommandExecutor - Команда 'add' выполнена успешно
+2025-05-26 23:08:58 INFO  server.core.ServerApp - Получена команда от клиента: show
+2025-05-26 23:08:58 INFO  server.network.CommandExecutor - Выполняется команда: show
+2025-05-26 23:08:58 INFO  server.network.CommandExecutor - Команда 'show' выполнена успешно
+2025-05-26 23:09:06 INFO  server.core.ServerApp - Получена команда от клиента: help
+2025-05-26 23:09:06 INFO  server.network.CommandExecutor - Выполняется команда: help
+2025-05-26 23:09:06 INFO  server.network.CommandExecutor - Команда 'help' выполнена успешно
+2025-05-26 23:09:50 INFO  server.core.ServerApp - Получена команда от клиента: min_by_usa_box_office
+2025-05-26 23:09:50 INFO  server.network.CommandExecutor - Выполняется команда: min_by_usa_box_office
+2025-05-26 23:09:50 INFO  server.network.CommandExecutor - Команда 'min_by_usa_box_office' выполнена успешно
+2025-05-26 23:11:07 INFO  server.core.ServerApp - Получена команда от клиента: add
+2025-05-26 23:11:07 INFO  server.network.CommandExecutor - Выполняется команда: add
+2025-05-26 23:11:07 INFO  server.network.CommandExecutor - Команда 'add' выполнена успешно
+2025-05-26 23:11:10 INFO  server.core.ServerApp - Получена команда от клиента: show
+2025-05-26 23:11:10 INFO  server.network.CommandExecutor - Выполняется команда: show
+2025-05-26 23:11:10 INFO  server.network.CommandExecutor - Команда 'show' выполнена успешно
+2025-05-26 23:11:17 INFO  server.core.ServerApp - Получена команда от клиента: help
+2025-05-26 23:11:17 INFO  server.network.CommandExecutor - Выполняется команда: help
+2025-05-26 23:11:17 INFO  server.network.CommandExecutor - Команда 'help' выполнена успешно
+2025-05-26 23:11:37 INFO  server.core.ServerApp - Получена команда от клиента: filter_starts_with_name
+2025-05-26 23:11:37 INFO  server.network.CommandExecutor - Выполняется команда: filter_starts_with_name
+2025-05-26 23:11:37 INFO  server.network.CommandExecutor - Команда 'filter_starts_with_name' выполнена успешно
+2025-05-26 23:12:39 INFO  server.core.ServerApp - Получена команда от клиента: update
+2025-05-26 23:12:39 INFO  server.network.CommandExecutor - Выполняется команда: update
+2025-05-26 23:12:39 ERROR server.network.CommandExecutor - Ошибка при выполнении команды 'update': Не указан ID.
+2025-05-26 23:13:27 INFO  server.core.ServerApp - Получена команда от клиента: update
+2025-05-26 23:13:27 INFO  server.network.CommandExecutor - Выполняется команда: update
+2025-05-26 23:13:27 INFO  server.network.CommandExecutor - Команда 'update' выполнена успешно
+2025-05-26 23:13:32 INFO  server.core.ServerApp - Получена команда от клиента: show
+2025-05-26 23:13:32 INFO  server.network.CommandExecutor - Выполняется команда: show
+2025-05-26 23:13:32 INFO  server.network.CommandExecutor - Команда 'show' выполнена успешно
+2025-05-26 23:13:37 INFO  server.core.ServerApp - Получена команда от клиента: help
+2025-05-26 23:13:37 INFO  server.network.CommandExecutor - Выполняется команда: help
+2025-05-26 23:13:37 INFO  server.network.CommandExecutor - Команда 'help' выполнена успешно
+2025-05-26 23:15:35 INFO  server.core.ServerMain - Сервер завершает работу по команде администратора.
+2025-05-26 23:15:35 INFO  server.core.ServerMain - Сохраняем коллекцию при завершении...
+2025-05-26 23:16:38 INFO  server.core.ServerApp - Получена команда от клиента: add
+2025-05-26 23:16:38 INFO  server.network.CommandExecutor - Выполняется команда: add
+2025-05-26 23:16:38 INFO  server.network.CommandExecutor - Команда 'add' выполнена успешно
+2025-05-26 23:16:38 INFO  server.core.ServerApp - Получена команда от клиента: Alex
+2025-05-26 23:16:38 INFO  server.core.ServerApp - Получена команда от клиента: 3
+2025-05-26 23:16:38 INFO  server.core.ServerApp - Получена команда от клиента: 35
+2025-05-26 23:16:38 INFO  server.core.ServerApp - Получена команда от клиента: 1
+2025-05-26 23:16:38 INFO  server.core.ServerApp - Получена команда от клиента: 800
+2025-05-26 23:16:38 INFO  server.core.ServerApp - Получена команда от клиента: 120
+2025-05-26 23:16:38 INFO  server.core.ServerApp - Получена команда от клиента: action
+2025-05-26 23:16:38 INFO  server.core.ServerApp - Получена команда от клиента: Harry
+2025-05-26 23:16:38 INFO  server.core.ServerApp - Получена команда от клиента: 31-05-1975
+2025-05-26 23:16:38 INFO  server.core.ServerApp - Получена команда от клиента: 1.8
+2025-05-26 23:16:38 INFO  server.core.ServerApp - Получена команда от клиента: show
+2025-05-26 23:16:38 INFO  server.network.CommandExecutor - Выполняется команда: show
+2025-05-26 23:16:38 INFO  server.network.CommandExecutor - Команда 'show' выполнена успешно
+2025-05-26 23:17:43 INFO  server.core.ServerApp - Получена команда от клиента: add
+2025-05-26 23:17:43 INFO  server.network.CommandExecutor - Выполняется команда: add
+2025-05-26 23:17:43 INFO  server.network.CommandExecutor - Команда 'add' выполнена успешно
+2025-05-26 23:17:43 INFO  server.core.ServerApp - Получена команда от клиента: Alex
+2025-05-26 23:17:43 INFO  server.core.ServerApp - Получена команда от клиента: 3
+2025-05-26 23:17:43 INFO  server.core.ServerApp - Получена команда от клиента: 35
+2025-05-26 23:17:43 INFO  server.core.ServerApp - Получена команда от клиента: 1
+2025-05-26 23:17:43 INFO  server.core.ServerApp - Получена команда от клиента: 800
+2025-05-26 23:17:43 INFO  server.core.ServerApp - Получена команда от клиента: 120
+2025-05-26 23:17:43 INFO  server.core.ServerApp - Получена команда от клиента: action
+2025-05-26 23:17:43 INFO  server.core.ServerApp - Получена команда от клиента: Harry
+2025-05-26 23:17:43 INFO  server.core.ServerApp - Получена команда от клиента: 31-05-1975
+2025-05-26 23:17:43 INFO  server.core.ServerApp - Получена команда от клиента: 1.8
+2025-05-26 23:17:43 INFO  server.core.ServerApp - Получена команда от клиента: show
+2025-05-26 23:17:43 INFO  server.network.CommandExecutor - Выполняется команда: show
+2025-05-26 23:17:43 INFO  server.network.CommandExecutor - Команда 'show' выполнена успешно
+2025-05-26 23:17:52 INFO  server.core.ServerApp - Получена команда от клиента: show
+2025-05-26 23:17:52 INFO  server.network.CommandExecutor - Выполняется команда: show
+2025-05-26 23:17:52 INFO  server.network.CommandExecutor - Команда 'show' выполнена успешно
+2025-05-26 23:18:23 INFO  server.core.ServerApp - Получена команда от клиента: help
+2025-05-26 23:18:23 INFO  server.network.CommandExecutor - Выполняется команда: help
+2025-05-26 23:18:23 INFO  server.network.CommandExecutor - Команда 'help' выполнена успешно
+2025-05-26 23:18:47 INFO  server.core.ServerMain - Ручное сохранение выполнено: Коллекция сохранена вручную с сервера.
+2025-05-26 23:18:52 INFO  server.core.ServerApp - Получена команда от клиента: remove_by_id
+2025-05-26 23:18:52 INFO  server.network.CommandExecutor - Выполняется команда: remove_by_id
+2025-05-26 23:18:52 INFO  server.network.CommandExecutor - Команда 'remove_by_id' выполнена успешно
+2025-05-26 23:18:57 INFO  server.core.ServerApp - Получена команда от клиента: show
+2025-05-26 23:18:57 INFO  server.network.CommandExecutor - Выполняется команда: show
+2025-05-26 23:18:57 INFO  server.network.CommandExecutor - Команда 'show' выполнена успешно
+2025-05-26 23:19:08 INFO  server.core.ServerApp - Получена команда от клиента: remove_lower_than
+2025-05-26 23:19:50 INFO  server.core.ServerApp - Получена команда от клиента: remove_lower
+2025-05-26 23:19:50 INFO  server.network.CommandExecutor - Выполняется команда: remove_lower
+2025-05-26 23:19:50 INFO  server.network.CommandExecutor - Команда 'remove_lower' выполнена успешно
+2025-05-26 23:19:54 INFO  server.core.ServerApp - Получена команда от клиента: show
+2025-05-26 23:19:54 INFO  server.network.CommandExecutor - Выполняется команда: show
+2025-05-26 23:19:54 INFO  server.network.CommandExecutor - Команда 'show' выполнена успешно
+2025-05-26 23:20:58 INFO  server.core.ServerApp - Получена команда от клиента: exit
+2025-05-26 23:20:58 INFO  server.core.ServerApp - Клиент завершил соединение.
+2025-05-26 23:21:03 INFO  server.core.ServerMain - Сервер завершает работу по команде администратора.
+2025-05-26 23:21:03 INFO  server.core.ServerMain - Сохраняем коллекцию при завершении...
+2025-05-26 23:35:36 INFO  server.core.ServerMain - Инициализация сервера с файлом movies.json
+2025-05-26 23:35:36 INFO  server.core.ServerApp - Сервер запущен на порту 5000
+2025-05-26 23:35:45 INFO  server.core.ServerApp - Клиент подключён: /127.0.0.1
+2025-05-26 23:36:22 INFO  server.core.ServerApp - Получена команда от клиента: add
+2025-05-26 23:36:22 INFO  server.network.CommandExecutor - Выполняется команда: add
+2025-05-26 23:36:22 INFO  server.network.CommandExecutor - Команда 'add' выполнена успешно
+2025-05-26 23:36:22 INFO  server.core.ServerApp - Получена команда от клиента: show
+2025-05-26 23:36:22 INFO  server.network.CommandExecutor - Выполняется команда: show
+2025-05-26 23:36:22 INFO  server.network.CommandExecutor - Команда 'show' выполнена успешно
+2025-05-26 23:37:05 INFO  server.core.ServerMain - Сохраняем коллекцию при завершении...
+2025-05-27 19:13:49 INFO  server.core.ServerMain - Инициализация сервера с файлом movies.json
+2025-05-27 19:13:49 INFO  server.core.ServerApp - Сервер запущен на порту 5000
+2025-05-27 19:13:57 INFO  server.core.ServerApp - Клиент подключён: /127.0.0.1
+2025-05-27 19:14:01 INFO  server.core.ServerApp - Получена команда от клиента: рудз
+2025-05-27 19:14:05 INFO  server.core.ServerApp - Получена команда от клиента: help
+2025-05-27 19:14:05 INFO  server.network.CommandExecutor - Выполняется команда: help
+2025-05-27 19:14:05 INFO  server.network.CommandExecutor - Команда 'help' выполнена успешно
+2025-05-27 19:14:44 ERROR server.core.ServerApp - Ошибка при выполнении команды: Connection reset
+2025-05-27 19:14:44 ERROR server.core.ServerApp - Ошибка при выполнении команды: Connection reset
