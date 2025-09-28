@@ -1,0 +1,110 @@
+html, body {height: 100%; }
+
+body {
+	font-family: cursive;
+	font-size: 16px;
+	color: #222;
+	line-height: 1.5;
+	margin: 0;
+	background: #D3D3D3;
+}
+
+{box-sizing: border-box;}
+
+.page-header, .page-footer {
+  background: #A9A9A9;
+  border-bottom: 1px solid #e6e8ee;
+  padding: 16px;
+}
+
+.page-footer { border-top: 1px solid #e6e8ee; border-bottom: 0; }
+
+.page-header h1 { margin: 0; }
+
+.layout {
+  display: grid;
+  grid-template-columns: 550px 1fr; 
+  gap: 16px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 16px;    
+}
+
+.input, .graph, .results { background: #DCDCDC; border: 1px solid #e6e8ee; border-radius: 8px; }
+.input, .graph { padding: 16px; }
+.results { padding: 16px; grid-column: 1 / -1; }
+
+.field {
+  margin: 0 0 12px 0;            
+  padding: 12px;                 
+  border: 1px dashed #808080;
+  border-radius: 8px;
+}
+
+.field legend { font-weight: 600; padding: 0 6px; }
+
+.field label {
+	display: inline-flex;
+	gap: 6px;
+ 	margin: 0 8px 8px 0;
+	cursor: pointer; }
+
+input[type="text"] {
+  width: 160px;
+  padding: 8px;                
+  border: 1px solid #c7ccda;
+  border-radius: 6px;
+}
+
+input[type="text"]::placeholder { color: #9aa3b2; }
+
+input[type="checkbox"][name="r"],
+input[type="radio"][name="x"] {
+  width: 16px; height: 16px;
+}
+
+.form-actions { margin-top: 12px; display: flex; gap: 8px; }
+
+.form-actions button {
+  padding: 10px 16px;          
+  border: 1px solid #696969;
+  background: #A9A9A9;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.form-actions button:hover { filter: brightness(.85); }
+
+button[type="submit"] {
+  background: #CACACA;
+}
+
+#graph-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #e0e4ef;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.results-table th,
+.results-table td {
+  border: 1px solid #999999;
+  padding: 10px;                
+  text-align: left;
+}
+
+.results-table tbody tr:nth-child(even) { background: #C0C0C0; }
+.results-table thead th { background: #A9A9A9; }
+
+/*Покраска в красный/зеленый в зависимости от попадания*/
+.results-table td.hit-yes { color: #1a7f37; font-weight: 600; }
+.results-table td.hit-no  { color: #b42318; font-weight: 600; }
+
