@@ -1,0 +1,19 @@
+[{
+  "oscarsCount": n,
+  "director": {
+    "birthday": "31-05-2000",
+    "name": "Ben",
+    "weight": 80,
+    "height": 1.8
+  },
+  "name": "AVatar",
+  "coordinates": {
+    "x": hgfhtf,
+    "y": 50
+  },
+  "length": 120,
+  "genre": "ACTION",
+  "id": 1,
+  "usaBoxOffice": 800,
+  "creationDate": "2025-05-13"
+}]
